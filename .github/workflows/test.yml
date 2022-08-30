@@ -1,7 +1,8 @@
-sample1
-
-sample2
-
-sample3
-
-sample4
+name: My First GitHub Action
+on: [push]
+jobs: 
+  print-hello-world: 
+    runs-on: ubuntu-latest
+    steps:
+      -run: echo "Hello World"
+      -run: echo "This is step 2"

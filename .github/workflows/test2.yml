@@ -1,0 +1,8 @@
+name: This is a Sample Actions
+on: [push]
+jobs:
+  Action1:
+    runs-on: ubuntu-latest
+    steps:
+      - run: actions/checkout@v2
+      - run: tree
